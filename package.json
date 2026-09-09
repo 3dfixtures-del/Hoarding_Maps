@@ -1,0 +1,17 @@
+{
+  "name": "adinn-excel-google-ooh-map",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Excel to exact-GPS OOH site map generator using Google Maps Static API and Netlify Functions.",
+  "scripts": {
+    "dev": "netlify dev",
+    "deploy": "netlify deploy",
+    "deploy:prod": "netlify deploy --prod"
+  },
+  "devDependencies": {
+    "netlify-cli": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
